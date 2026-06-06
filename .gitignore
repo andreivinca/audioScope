@@ -1,0 +1,24 @@
+# Gradle / Android build output
+/build/
+/app/build/
+/.gradle/
+/.kotlin/
+local.properties
+
+# Build artifacts
+*.apk
+*.aab
+*.keystore
+
+# IDE
+/.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Debug screenshots
+ss_*.png
+
+# Local agent / tooling settings
+/.claude/
