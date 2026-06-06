@@ -1,16 +1,16 @@
-package eu.labrago.audioscope
+package io.github.andreivinca.audioscope
 
 import android.Manifest
 import androidx.annotation.RequiresPermission
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import eu.labrago.audioscope.audio.AudioTestEngine
-import eu.labrago.audioscope.dsp.Dsp
-import eu.labrago.audioscope.model.MeasurementPoint
-import eu.labrago.audioscope.model.MultiToneParams
-import eu.labrago.audioscope.model.ScopeUiState
-import eu.labrago.audioscope.model.SweepParams
-import eu.labrago.audioscope.model.TestMode
+import io.github.andreivinca.audioscope.audio.AudioTestEngine
+import io.github.andreivinca.audioscope.dsp.Dsp
+import io.github.andreivinca.audioscope.model.MeasurementPoint
+import io.github.andreivinca.audioscope.model.MultiToneParams
+import io.github.andreivinca.audioscope.model.ScopeUiState
+import io.github.andreivinca.audioscope.model.SweepParams
+import io.github.andreivinca.audioscope.model.TestMode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.ensureActive

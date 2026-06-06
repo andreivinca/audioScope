@@ -1,4 +1,4 @@
-package eu.labrago.audioscope
+package io.github.andreivinca.audioscope
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -17,10 +17,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.runtime.collectAsState
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
-import eu.labrago.audioscope.model.TestMode
-import eu.labrago.audioscope.ui.AudioScopeTheme
-import eu.labrago.audioscope.ui.ScopeBg
-import eu.labrago.audioscope.ui.ScopeScreen
+import io.github.andreivinca.audioscope.model.TestMode
+import io.github.andreivinca.audioscope.ui.AudioScopeTheme
+import io.github.andreivinca.audioscope.ui.ScopeBg
+import io.github.andreivinca.audioscope.ui.ScopeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

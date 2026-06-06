@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.ui
+package io.github.andreivinca.audioscope.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -17,9 +17,9 @@ import androidx.compose.ui.text.drawText
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import eu.labrago.audioscope.dsp.Dsp
-import eu.labrago.audioscope.model.MeasurementPoint
-import eu.labrago.audioscope.model.TestMode
+import io.github.andreivinca.audioscope.dsp.Dsp
+import io.github.andreivinca.audioscope.model.MeasurementPoint
+import io.github.andreivinca.audioscope.model.TestMode
 import kotlin.math.abs
 import kotlin.math.ln
 import kotlin.math.log10

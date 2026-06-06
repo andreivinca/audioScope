@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.dsp
+package io.github.andreivinca.audioscope.dsp
 
 import kotlin.math.PI
 import kotlin.math.cos

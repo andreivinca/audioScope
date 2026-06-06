@@ -10,6 +10,10 @@ local.properties
 *.aab
 *.keystore
 
+# Release signing (NEVER commit — back these up privately!)
+*.jks
+keystore.properties
+
 # IDE
 /.idea/
 *.iml

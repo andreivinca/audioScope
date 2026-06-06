@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.model
+package io.github.andreivinca.audioscope.model
 
 import kotlin.math.ln
 import kotlin.math.pow

@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.audio
+package io.github.andreivinca.audioscope.audio
 
 import kotlin.math.PI
 import kotlin.math.sin

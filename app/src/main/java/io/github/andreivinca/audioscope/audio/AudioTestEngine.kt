@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.audio
+package io.github.andreivinca.audioscope.audio
 
 import android.Manifest
 import android.media.AudioAttributes

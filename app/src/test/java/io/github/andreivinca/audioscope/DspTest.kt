@@ -1,6 +1,6 @@
-package eu.labrago.audioscope
+package io.github.andreivinca.audioscope
 
-import eu.labrago.audioscope.dsp.Dsp
+import io.github.andreivinca.audioscope.dsp.Dsp
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

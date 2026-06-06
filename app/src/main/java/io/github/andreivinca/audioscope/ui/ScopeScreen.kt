@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.ui
+package io.github.andreivinca.audioscope.ui
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
@@ -34,8 +34,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import eu.labrago.audioscope.model.ScopeUiState
-import eu.labrago.audioscope.model.TestMode
+import io.github.andreivinca.audioscope.model.ScopeUiState
+import io.github.andreivinca.audioscope.model.TestMode
 import kotlin.math.roundToInt
 
 @Composable

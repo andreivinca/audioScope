@@ -1,4 +1,4 @@
-package eu.labrago.audioscope.ui
+package io.github.andreivinca.audioscope.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
